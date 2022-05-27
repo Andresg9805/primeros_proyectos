@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Linden+Hill&display=swap%27`');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Lobster+Two&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Charm:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Martel:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Vidaloka&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&display=swap');
+
+.navbar-brand{
+    font-size: 40px;
+    font-family: 'Satisfy', cursive;
+} 
+
+.img-hover{
+    transition: all .5s;
+}
+
+.img-hover:hover{
+    transform: scale(1.1);
+}
+
+.prueba{
+    font-size: 15px;
+    font-family: 'Linden Hill', serif;
+}
+
+.francois_red{
+    color: #ff0000 !important;
+    font-size: 30px;
+    font-family: 'Satisfy', cursive;
+    text-decoration: none;
+}
+
+.footer{
+
+    background-color: #f8eded;
+    font-size: 18px;
+    font-family: 'Linden Hill', serif;   
+}
+
+.sic{
+    text-decoration: none;
+}
+
+.comprar{
+border-radius: 6px;
+background: #df0909;
+border-color: #df4545;
+color: #fff;
+
+}
+
+.platos{
+   
+    font-family: 'Charm', cursive;
+    margin: 9px;
+ 
+}  
+
+.titulos{
+    font-family: 'Beau Rivage', cursive;
+    font-size: 23px;
+    text-align: center;
+}
+
+.reservas{
+text-align: center;
+
+}
+
+.carrito{
+    color: #ffffff;
+    position: relative;
+    left: 350px;
+    cursor: pointer;
+}
+
+/*
+animacion imagenes del menu
+*/
+
+
+.dtl13 {
+    width: 100%;
+    position: relative;
+    -webkit-box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
+    box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
+}
+
+.dtl13 img {
+    position: relative;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.dtl13 .dtl {
+    background: #704f4f8a;
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    padding: 0 15px;
+    visibility: hidden;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.dtl13 .dtl h3 {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: normal;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+
+.dtl13 .dtl p {
+    font-size: 14px;
+    margin-bottom: 10px;
+    line-height: 1.2;
+    color: #ffffff;
+    text-indent: 10px;
+}
+
+.dtl13 .dtl a {
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    color: #333;
+    float: right;
+    font-size: 13px;
+    padding: 2px 5px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.dtl13 .dtl a:hover {
+    background: #e6e6e6;
+    border: 1px solid #adadad;
+}
+
+.dtl13:hover .dtl {
+    visibility: visible;
+    opacity: 1;
+    left: 25px;
+    top: 25px;
+}
+
+/*
+animacion imagenes del menu
+*/

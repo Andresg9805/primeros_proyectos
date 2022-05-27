@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FranÇois</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/cuchilleria.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css"
+        integrity="sha512-SJw7jzjMYJhsEnN/BuxTWXkezA2cRanuB8TdCNMXFJjxG9ZGSKOX5P3j03H6kdMxalKHZ7vlBMB4CagFP/de0A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+</head>
+
+<body>
+
+
+    <main>
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-danger sticky-top ">
+            <div class="container-fluid">
+                <a class="navbar-brand ms-3 hvr-wobble-bottom" href="index.html">FranÇois </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
+                    <div class="navbar-nav prueba">
+                        <a class="nav-link active hvr-float-shadow ms-5" aria-current="page" href="menu.html">MENU</a>
+                        <a class="nav-link active hvr-float-shadow" href="nosotros.html">NOSOTROS</a>
+                        <a class="nav-link active hvr-float-shadow me-5" href="contactenos.html">CONTACTENOS</a>
+                        
+                    </div>
+                    <i class="fa-solid fa-cart-shopping carrito " onclick="total_compra()"></i>
+                </div>
+            </div>
+        </nav>
+
+        <div class=" platos_fuertes container mt-5">
+
+            <h3 class="platos">Platos Fuertes </h3>
+
+            <div class="row align-items-center">
+                <div class="col">
+                    <div class="dtl13">
+                        <P class="titulos"> Algiot</P>
+                        <img src="img/platos fuertes/Algiot.jpg" alt="">
+                        <div class="dtl">
+                            <h3>PRECIO: 77.000</h3>
+                            <p>puré de patatas muy espeso, más de lo normal, que está mezclado con queso sin afinar,
+                                conocido como tomme fraîche</p>
+
+                                <button type="button" onclick="mensajeCarrito(77000)" class="comprar">Agregar</button>
+
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="dtl13">
+                        <P class="titulos">Cassoulet</P>
+                        <img src="img/platos fuertes/Cassoulet.jpg" alt="">
+                        <div class="dtl">
+                            <h3>PRECIO: 65.000</h3>
+                            <p>alubias blancas y se acompañan con carnes de diferentes tipos. Pueden cocinarse con
+                                pollo, cerdo o incluso vacuno</p>
+                                <button type="button" onclick="mensajeCarrito(65000)" class="comprar">Agregar</button>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="dtl13">
+                        <P class="titulos"> Confit de pato</P>
+                        <img src="img/platos fuertes/Confit-de-pato.jpg" alt="">
+                        <div class="dtl">
+                            <h3>PRECIO: 46.000</h3>
+                            <p>Se sala el trozo y se escalfa en su propia grasa. El proceso entero dura casi 3 días.
+                                Luego, se sirve con patatas asadas como guarnición.</p>
+                                <button type="button" onclick="mensajeCarrito(46000)" class="comprar">Agregar</button>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="dtl13">
+                        <P class="titulos"> Coq au vin</P>
+                        <img src="img/platos fuertes/Coq-au-vin.jpg" alt="">
+                        <div class="dtl">
+                            <h3>PRECIO: 52.000</h3>
+                            <p>estofado de pollo (aunque también puedan usarse otros tipos de carne), con nabos y
+                                cebollas</p>
+                                <button type="button" onclick="mensajeCarrito(52000)" class="comprar">Agregar</button>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="menu2 mt-5">
+
+                <div class="row align-items-center">
+                    <div class="col">
+                        <div class="dtl13">
+                            <P class="titulos"> Merluza al beurre blanc</P>
+                            <img src="img/platos fuertes/Merluza-al-beurre-blanc.jpg" alt="">
+                            <div class="dtl">
+                                <h3>PRECIO: 39.000</h3>
+                                <p>troncos o lomos de merluza que se sirven con una salsa especial, la que da nombre al
+                                    plato, la salsa beurre blanc.</p>
+                                    <button type="button" onclick="mensajeCarrito(39000)" class="comprar">Agregar</button>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="dtl13">
+                            <P class="titulos"> quiche lorraine</P>
+                            <img src="img/platos fuertes/Quiche-lorraine.jpg" alt="">
+                            <div class="dtl">
+                                <h3>PRECIO: 37.000</h3>
+                                <p>tarta salada hecha con pasta brisa, crema de leche y huevo. Se aromatiza con nuez
+                                    moscada y pimienta, y se le añaden trozos de panceta</p>
+                                    <button type="button" onclick="mensajeCarrito(37000)" class="comprar">Agregar</button>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="dtl13">
+                            <P class="titulos"> Ratatouille</P>
+                            <img src="img/platos fuertes/Ratatouille.jpg" alt="">
+                            <div class="dtl">
+                                <P class="titulos"> Merluza al beurre blanc</P>
+                                <h3>PRECIO: 61.000</h3>
+                                <p>guiso a base de ajo, pimiento, calabacín, cebollas y berenjenas. Una vez cocinado, se
+                                    añaden especias como tomillo, laurel, albahaca y orégano.</p>
+                                    <button type="button" onclick="mensajeCarrito(61000)" class="comprar">Agregar</button>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="dtl13">
+                            <P class="titulos"> Soupe Oignon</P>
+                            <img src="img/platos fuertes/Soupe-Oignon.jpg" alt="">
+                            <div class="dtl">
+                                <h3>PRECIO: 49.000</h3>
+                                <p>Las cebollas están cocinadas muy lentamente en mantequilla y aceite. Después, se
+                                    sirven en cuencos y se añaden rebanadas de pan con queso gratinado</p>
+                                    <button type="button" onclick="mensajeCarrito(49000)" class="comprar">Agregar</button>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="postres container mt-5">
+
+                <h3 class="platos">Postres</h3>
+
+                <div class="row align-items-center">
+                    <div class="col">
+                        <div class="dtl13">
+                            <P class="titulos"> macarons</P>
+                            <img src="img/platos fuertes/macarons.jpg" alt="">
+                            <div class="dtl">
+                                <h3>PRECIO: 12.000</h3>
+                                <p>Sus colores son tan atractivos como la gran cantidad de sabores que puedes encontrar.
+                                    Son galletas hechas con azúcar glas, azúcar, huevo y almendra.
+
+                                    Pruébalos en: Pierre Hermé o Ladurée.</p>
+
+                                    <button type="button" onclick="mensajeCarrito(12000)" class="comprar">Agregar</button>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="dtl13">
+                            <P class="titulos"> montblanc</P>
+                            <img src="img/platos fuertes/montblanc-2-@renasml.jpg.webp" alt="">
+                            <div class="dtl">
+                                <h3>PRECIO: 16.000</h3>
+                                <p>Es imposible no rendirse a los pies de esta montaña hecha de merengue y castañas.
+                                    ¿Sabías que su nombre viene porque se parece a las montañas Mont Blanc?
+
+                                    Pruébalo en: Carl Marletti.</p>
+                                    <button type="button" onclick="mensajeCarrito(16000)" class="comprar">Agregar</button>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="dtl13">
+                            <P class="titulos"> tarte tatin</P>
+                            <img src="img/platos fuertes/tarte-tatin-@twoandtwocafe.jpg.webp" alt="">
+                            <div class="dtl">
+                                <h3>PRECIO: 17.000</h3>
+                                <p>Y… voilà! El milagro de convertir una sencilla manzana en un postre absolutamente
+                                    delicioso se hace real con la tarte tatin.</p>
+                                    <button type="button" onclick="mensajeCarrito(17000)" class="comprar">Agregar</button>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="dtl13">
+                            <P class="titulos"> saint honore</P>
+                            <img src="img/platos fuertes/saint-honore-@viqui1993.jpg.webp" alt="">
+                            <div class="dtl">
+                                <h3>PRECIO: 18.000</h3>
+                                <p>¿Una tarta hecha de profiteroles, crema, nata y caramelo? El menú del cielo debe
+                                    parecerse a la tarta Saint Honoré.
+
+                                    Pruébalo en: La Pâtisserie des rêves..</p>
+                                    <button type="button" onclick="mensajeCarrito(18000)" class="comprar">Agregar</button>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+
+            <div class="vinos container mt-5">
+
+                <h3 class="platos">Vinos</h3>
+
+                <div class="row align-items-center">
+                    <div class="col">
+                        <div class="dtl13">
+                            <P class="titulos">louis roedere premier</P>
+                            <img src="img/platos fuertes/nv-louis-roederer-brut-premier.jpg" alt="">
+                            <div class="dtl">
+                                <h3>PRECIO: 198.000</h3>
+                                <p>No todos los vinos son champán, pero el Nv. Louis Roederer Brut Premier, sí lo es.
+                                    Esta denominación solo es legal para los caldos de uvas producidos en la región de
+                                    Champaña, zona norte de Francia.</p>
+
+                                    <button type="button" onclick="mensajeCarrito(198000)" class="comprar">Agregar</button>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="dtl13">
+                            <P class="titulos"> domaine faiveley</P>
+                            <img src="img/platos fuertes/domaine-faiveley-mercurey-clos-des-myglands-premier-cru.jpg"
+                                alt="">
+                            <div class="dtl">
+                                <h3>PRECIO: 162.000</h3>
+                                <p>Una muestra más de los mejores vinos franceses se hace presente en este Borgoña rojo,
+                                    que si bien no está entre los borgoñas de bajo costo, bien vale la pena pagar por su
+                                    alta calidad..</p>
+                                    <button type="button" onclick="mensajeCarrito(162000)" class="comprar">Agregar</button>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="dtl13">
+                            <P class="titulos"> chateau de saint cosme</P>
+                            <img src="img/platos fuertes/2016-chateau-de-saint-cosme-gigondas.jpg" alt="">
+                            <div class="dtl">
+                                <h3>PRECIO: 242.000</h3>
+                                <p>El Chateau De Saint Cosme es de los vinos tintos o rojos del sur del Ródano
+                                    elaborados a partir de mezclas que salen de uvas de garnacha, cosechas tardías con
+                                    uvas muy vigorosas y productivas..</p>
+                                    <button type="button" onclick="mensajeCarrito(242000)" class="comprar">Agregar</button>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="dtl13">
+                            <P class="titulos"> chateau greysac</P>
+                            <img src="img/platos fuertes/2015-chateau-greysac.jpg" alt="">
+                            <div class="dtl">
+                                <h3>PRECIO: 211.000</h3>
+                                <p>El Château Greysac es un delicado vino que ofrece un sabor y aroma a grosella negra y
+                                    roja, lo que le convierte en un clásico.</p>
+                                    <button type="button" onclick="mensajeCarrito(211000)" class="comprar">Agregar</button>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+        <footer>
+            <div class="footer mt-5">
+
+                <div class="row">
+                    <div class="col-4">
+                        <ul>
+                            <a class="francois_red  ">FranÇois </a><br><br>
+                            <p>Con FranÇois convierte tu antojo en un gusto. Disfruta de nuestro delicioso Quiche
+                                Lorraine,
+                                Algiot,
+                                Ratatouille, Soupe à l´oignon, Cassoulet, y más. Conoce aquí nuestro menú</p>
+                        </ul>
+                    </div>
+
+                    <div class="col-4 mt-5">
+                        <ul>
+                            <b>Contactanos</b>
+                            <p>Francois Colombia, Inversiones INT Colombia S.A.S, NIT: 900 439 409 -2
+                                Calle 86a 13-42
+                                Bogotá, Colombia
+                                Llámanos: 321-4138566 <br>
+                                Email: contactenos@Francois.co
+                                reservas: reservas@Francois.co</p>
+                            <a class="sic" href="https://www.sic.gov.co/">Superintendencia de Industria y Comercio
+                                SIC</a>
+
+
+                        </ul>
+                    </div>
+
+                    <div class="col-4 mt-5">
+                        <ul>
+
+                            <b>Siguenos</b><br>
+                            <a href="https://es-la.facebook.com/"><img src="img/facebook.png" alt="" height="40px"
+                                    width="40px" class="img-hover"> </a>
+                            <a href="https://twitter.com/"><img src="img/gorjeo.png" alt="" height="40px" width="40px"
+                                    class="img-hover"></a>
+                            <a href="https://www.instagram.com/?hl=es"><img src="img/instagram.png" alt="" height="40px"
+                                    width="40px" class="img-hover"></a>
+                            <a href="https://wa.link/vx3she"><img src="img/WHATSAPP.png" alt="" height="50px"
+                                    width="50px" class="img-hover"></a>
+
+                        </ul>
+                    </div>
+
+
+                </div>
+
+
+            </div>
+            </div>
+
+        </footer>
+
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
+
+    <script src="restaurant.js"></script>
+
+
+</body>

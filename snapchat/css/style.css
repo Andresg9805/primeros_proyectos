@@ -1,0 +1,57 @@
+body {
+    background-color: #ffd700;
+}
+
+.ghost {
+    width: 64px;
+    height: 64px;
+    position: absolute;
+    top: 11px;
+    left: 140px;
+}
+
+.video {
+
+    width: 311px;
+    height: 600px;
+    border-radius: 45px;
+    margin-left: 160px;
+}
+
+
+h1 {
+    margin-top: 180px;
+    color: #4d4c4c;
+}
+
+h3 {
+    font-size: 12px;
+    font-family: Graphik-Semibold;
+    color: #4d4c4c;
+    line-height: 17px;
+    font-weight: bold;
+    /* aca lo entoy poniedo en negrilla */
+
+}
+
+.play {
+    width: 130px;
+
+}
+
+.store {
+    width: 130px;
+
+}
+
+.footer {
+background-color: #F8F9FB;
+}
+
+ul{
+    list-style: none;
+    /* con este le quito los puntos al listado creado con ul */
+   
+    
+    
+}

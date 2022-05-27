@@ -1,0 +1,78 @@
+.fondo{
+    background: url(imagenes/logo-twitter.png);
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.img-tw{
+    background: url(imagenes/Twitter-logo.webp);
+    /**/
+    filter: brightness(10);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 50%;
+}
+
+.blue-b
+{
+    width: 45px;
+    height: 57px;
+}
+.happening
+{
+    font: inherit ;
+    width: 543.83px;
+    height: 84px;
+    margin-top: 48px;
+    margin-bottom: 48px;
+}
+.icon-google
+{
+    height: 20px;
+}
+.icon-apple
+{
+    height: 20px;
+}
+.btn-google
+{
+    text-align: center;
+    width: 300px;
+    height: 40px;
+    background-color: #ffffff;
+    border-color: #dbdbdb;
+    border-width: 1px;
+    border-radius: 9999px;
+}
+.btn-apple
+{
+    width: 300px;
+    height: 40px;
+    text-align: center;
+    background-color: #ffffff;
+    border-color: #dbdbdb;
+    border-width: 1px;
+    border-radius: 9999px;
+}
+.parrafo .link-1,.parrafo .link-2,.parrafo .link-3 
+{
+    text-decoration: none;
+}
+.sign-in
+{
+    width: 300px;
+    height: 40px;
+    background-color: #1d9bf0;
+    border-color: #1d9bf0;
+    border-radius: 9999px;
+    
+}
+.btn-enter
+{
+    width: 300px;
+    height: 40px;
+    border-width: 1px;
+    background-color: #ffffff;
+    border-radius: 9999px;
+}
